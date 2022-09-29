@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Portofolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+    <nav class="p-5 text-[#edead0] bg-[#31572C] shadow md:flex md:item-center md:justify-between">
+        <div class="flex justify-between items-center">
+            <img class="h-8 inline" src="assets/logo.png" alt="">
+
+            <span class="text-3x1 cursor-pointer mx-2 md:hidden block">
+                <ion-icon name="menu" onclick="Menu(this)"></ion-icon>
+            </span>
+        </div>
+
+        <ul class="md:flex md:items-center z-[-1]-auto md:static absolute bg-[#31572C] w-full left-0 md:w-auto md:py-0 py-4 md:pl-o pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500">
+            <li class="mx-4 my-6 md:my-0">
+                <a href="#home" class="text-xl hover:text-[#a5be00] duration-500">Home</a>
+            </li>
+            <li class="mx-4 my-6 md:my-0">
+                <a href="#about" class="text-xl hover:text-[#a5be00] duration-500">About</a>
+            </li>
+            <li class="mx-4 my-6 md:my-0">
+                <a href="#experience" class="text-xl hover:text-[#a5be00] duration-500">Experience</a>
+            </li>
+            <li class="mx-4 my-6 md:my-0">
+                <a href="#education" class="text-xl hover:text-[#a5be00] duration-500">Education</a>
+            </li>
+            <li class="mx-4 my-6 md:my-0">
+                <a href="#skills" class="text-xl hover:text-[#a5be00] duration-500">Skills</a>
+            </li>
+            <li class="mx-4 my-6 md:my-0">
+                <a href="#certification" class="text-xl hover:text-[#a5be00] duration-500">Certification</a>
+            </li>
+            <li class="mx-4 my-6 md:my-0">
+                <a href="#contact" class="text-xl hover:text-[#a5be00] duration-500">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <header id="home" class="bg-[#c0dfa1]">
+        <div class="grid sm:grid-cols-2 lg:grid-cols-2 gap-2 md:gap-4 lg:gap-2 p-10">
+            <div class="flex flex-wrap justify-center md:justify-center lg:justify-end "><img src="assets/annisa.jpeg" alt="" class="w-64 h-64 rounded-full"></div>
+            <div class=" font-bold text-left font-poppins p-14">
+                <h1 class="text-5xl text-[#f3ffb6]">Hello, I'm Annisa Rahma Putri</h1>
+                <h3 class="text-3xl text-[#155d27]">Junior Front-End Web Developer</h3>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="bg-[#f3ffb6]">
+        <div class="text-center text-left font-poppins p-14">
+            <h2 class=" font-bold text-4xl text-[#155d27]">About Me</h2>
+            <br>
+            <p class="text-xl">I'm Annisa, Level 5 student of Informatics Engineering at University of Singaperbangsa Karawang. I'm able to communicate well, think critically, work with team, and responsible. I have experience in several campus committees, interested in front-end web development and UI/UX design, also familiar with HTML, CSS, and JavaScript programming languages. I have worked on several web-based programming projects, actively participates in IT training and certification, has a strong curiousity and like to learn new things, especially about IT and programming languages.</p>
+        </div>
+    </section>
+
+    <section id="experience" class="bg-[#c0dfa1] text-center font-poppins p-14">
+        <div class="grid grid-rows-3 gap-3">
+            <h2 class=" font-bold text-4xl text-[#155d27]">Experience</h2>
+                <div class="bg-[#283618] text-[#d8f3dc] rounded-lg p-3">
+                        <p><b>DIES NATALIS FASILKOM UNSIKA – Karawang, Indonesia</b></p>
+                        <p>Event Division (April 2022 - Present)</p>
+                        <p>Provide the equipment needed by each division, make a permit to borrow an item</p>
+                </div>
+                <div class="bg-[#283618] text-[#d8f3dc] rounded-lg p-3">
+                        <p><b>IT COMPETITION AND NATIONAL WEBINARS DO IT 6.0 – Karawang, Indonesia</b></p>
+                        <p>Event Division (April 2022 - Present)</p>
+                        <p>Create a concept, theme, and rundown of the event</p>
+                </div>
+                <div class="bg-[#283618] text-[#d8f3dc] rounded-lg p-3">
+                        <p><b>IT COMPETITION AND NATIONAL WEBINARS DO IT 5.0 – Karawang, Indonesia</b></p>
+                        <p>Event Division (Mei - Oktober 2021) </p>
+                        <p>Create a concept, theme, and rundown of the event. Coordinate all activities during the event</p>   
+                        <p>Get more than 300 participants of national webinars</p>
+                    </p>
+                </div>
+        </div>
+    </section>
+
+    <section id="education" class="bg-[#f3ffb6] font-poppins p-14">
+        <h2 class=" text-center font-bold text-4xl text-[#155d27]">Education</h2>
+    </br>
+        <div class="grid sm:grid-cols-2 lg:grid-cols-2 gap-10 md:gap-10 lg:gap-10 p-10">
+            <div>
+                <img src="assets/unsika.png" alt="" class="w-200 h-100">
+            </div>
+            <div>
+                <p>
+                    <b class="text-xl">UNIVERSITY OF SINGAPERBANGSA KARAWANG (2020 - Present) </b>
+                    <br><b>Informatics Engineering – GPA 3.92/4.00</b>
+                    <ul>
+                        <li>Algorithm Design Analysis</li>
+                        <li>Algorithms and Programming  </li>
+                        <li>Object Oriented Programming </li>
+                        <li>UI/UX Design</li>
+                        <li>Web-based Programming </li>
+                        <li>Database</li>
+                        <li>Artificial Intelligence</li>
+                    </ul>
+                </p>
+            </div>
+            <div>
+                <img src="assets/smantikaa.jpg" alt="" class="w-max">
+            </div>
+            <div>
+                <p>
+                    <b class="text-xl">SMAN 3 KARAWANG (2017 - 2020) </b>
+                    <br><b>Science Majors</b>
+                    <ul>
+                        <li>Focus on Chemistry</li>
+                        <li>Badminton Extracurricular</li>
+                        <li>Active in every inter-class competition</li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="bg-[#c0dfa1] text-center font-poppins p-14">
+        <h2 class=" text-center font-bold text-4xl text-[#155d27]">Skills</h2>
+            <div class="flex flex-row-5 items-center justify-center gap-5 p-10">
+                <div><img src="assets/canva.png" alt="" width="90" height="90"></div>
+                <div><img src="assets/figma.png" alt="" width="90" height="90"></div>
+                <div><img src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_1280.png" alt="" width="100" height="100"></div>
+                <div><img src="assets/css.png" alt="" width="100" height="100"></div>
+                <div><img src="assets/js.png" alt="" width="100" height="100"></div>
+            </div>
+    </section>
+
+    <section id="certification" class="bg-[#f3ffb6] font-poppins p-14">
+        <h2 class=" text-center font-bold text-4xl text-[#155d27]">Certification</h2>
+        <div class="flex flex-row-5 items-center justify-center gap-5 sm:flex-col-2 p-10">
+        <div class=" bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+            <a href="#">
+                <img src="assets/sertif1.jpg" alt="" class=" rounded-t-lg">
+            </a>
+            <div class="p-5">
+                <a href="#">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Learn Basic Web Programming (2021)</h5>
+                </a>
+                <p>Learn the basics of HTML, CSS and JavaScript, create a final project in the form of a simple web page</p>
+                <br>
+                <a href="#" class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-black bg-[#c0dfa1] rounded-lg hover:bg-[#f3ffb6]">
+                    See
+                    <svg aria-hidden="true" class="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                </a>
+            </div>
+        </div>
+
+        <div class=" max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+            <a href="#">
+                <img src="assets/sertif2.jpg" alt="" class=" rounded-t-lg">
+            </a>
+            <div class="p-5">
+                <a href="#">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Start Programming With Java (2022)</h5>
+                </a>
+                <p>Learn the basics of java programming, understand the concept of object oriented programming</p>
+                <br>
+                <a href="#" class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-black bg-[#c0dfa1] rounded-lg hover:bg-[#f3ffb6]">
+                    See
+                    <svg aria-hidden="true" class="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                </a>
+            </div>
+        </div>
+
+        <div class=" max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+            <a href="#">
+                <img src="assets/sertif3.jpg" alt="" class=" rounded-t-lg">
+            </a>
+            <div class="p-5">
+                <a href="#">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">R Fundamental For Data Science (2021)</h5>
+                </a>
+                <p>Learn the basics of R programming language, complete the given exam</p>
+                <br>
+                <br>
+                <a href="#" class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-black bg-[#c0dfa1] rounded-lg hover:bg-[#f3ffb6]">
+                    See
+                    <svg aria-hidden="true" class="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                </a>
+            </div>
+        </div>
+
+        <div class=" max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+            <a href="#">
+                <img src="assets/sertif4.jpg" alt="" class=" rounded-t-lg">
+            </a>
+            <div class="p-5">
+                <a href="#">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Python Fundamental For Data Science (2021)</h5>
+                </a>
+                <p>Learn the basics of Python programming language</p>
+                <br>
+                <a href="#" class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-black bg-[#c0dfa1] rounded-lg hover:bg-[#f3ffb6]">
+                    See
+                    <svg aria-hidden="true" class="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                </a>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section id="contact" class="bg-[#c0dfa1] font-poppins p-14">
+        <h2 class=" text-center font-bold text-4xl text-[#155d27]">Contact Me</h2>
+        <div class="mb-6">
+            <label for="name" class=" block mb-2 text-sm font-medium text-gray-800 dark:text-gray-100">Name</label>
+            <input type="text" placeholder="your name" id="name" class="bg-gray-50 border border-gray-300 text-gray-800 text-sm rounded-lg focus:ring-[#f3ffb6] focus:border-[#f3ffb6] block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-[#f3ffb6] dark:focus:border-[#f3ffb6]">
+        </div>
+
+        <div class="mb-6">
+            <label for="email" class=" block mb-2 text-sm font-medium text-gray-800 dark:text-gray-100">Email</label>
+            <input type="text" placeholder="your email" id="email" class="bg-gray-50 border border-gray-300 text-gray-800 text-sm rounded-lg focus:ring-[#f3ffb6] focus:border-[#f3ffb6] block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-[#f3ffb6] dark:focus:border-[#f3ffb6]">
+        </div>
+
+        <div class="mb-6">
+            <label for="message" class=" block mb-2 text-sm font-medium text-gray-800 dark:text-gray-100">Message</label>
+            <input type="text" placeholder="write your message..." id="message" class=" block p-4 w-full bg-gray-50 border border-gray-300 text-gray-800 text-sm rounded-lg focus:ring-[#f3ffb6] focus:border-[#f3ffb6] block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-[#f3ffb6] dark:focus:border-[#f3ffb6]">
+        </div>
+        <button type="submit" class=" text-black bg-[#155d27] hover:bg-[#f3ffb6] font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center">Submit</button>
+    </section>
+
+    <footer style="text-align: center;" class="bg-[#31572C]">
+        <div class="flex flex-row-4 items-center justify-center gap-5 p-3">
+        <a href="https://github.com/annisarahmaptr"><img src="assets/github.png" alt="" width="50" height="50"/></a>
+        <a href="https://www.instagram.com/annisarahmaptr/"><img src="assets/ig.png" alt="" width="50" height="50"/></a>
+        <a href="https://www.linkedin.com/in/annisarahmaptr/"><img src="assets/li.png" alt="" width="55" height="55"/></a>
+        <a href="https://wa.me/083815445807"><img src="assets/wa.png" alt="" width="50" height="50"/></a>
+        </div>
+        <p class="text-[#c0dfa1]"><b>Copyright &copy; 2022 by Annisa Rahma Putri - FE2537185</b></p>
+    </footer>
+
+    <script>
+        function Menu(e){
+            let list = document.querySelector('ul');
+
+            e.name === 'menu' ? (e.name = "close", list.classList.add('top-[80px]'), list.classList.add('opacity-100')) : (e.name = "menu", list.classList.remove('top-[80px]'), list.classList.remove('opacity-100'))
+        }
+    </script>
+</body>
+</html>
